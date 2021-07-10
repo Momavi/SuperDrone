@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-size: inherit;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+    line-height: 26px;
+    background-color: #1c1c1c;
+}
+
+body.lock {
+    overflow: hidden;
+}
+.container{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
