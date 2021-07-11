@@ -146,7 +146,7 @@
 }
 
 .top {
-  background-image: url(/images/top-bg.png);
+  background-image: url(../images/top-bg.png);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -635,22 +635,21 @@
   }
 
   &__social {
+    display: flex;
     &-link {
       margin-right: 15px;
-
+      background-color: #fff;
+      display: flex;
+      border: 5px solid #fff;
+      border-radius: 90px;
       &:last-child {
         margin-right: 0;
       }
     }
 
     &-images {
-      width: 60px;
-      height: 60px;
-      padding: 15px;
-      background-color: #fff;
-      border: 1px solid transparent;
-      border-radius: 90px;
-
+      width: 28px;
+      height: 28px;
     }
   }
 

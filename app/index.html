@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Author: E.V.Erbis , Category: Drone, Price: $399, Length: 4 pages">
   <title>SuperDrone</title>
-  <link rel="icon" href="/images/logo.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/buy.svg">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/buy.svg">
+  <link rel="preload" href="fonts/ProximaNova-Regular.woff" as="style">
+  <link rel="preload" href="fonts/ProximaNova-Bold.woff" as="style">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -42,12 +42,12 @@
         </nav>
         <div class="header__info">
           <a class="header__info-buy" href="#!">
-            <img class="header__info-img" src="/images/buy.svg" alt="">
+            <img class="header__info-img" src="images/buy.svg" alt="">
           </a>
           <div class="header__button btn-angle-1">
             <a class="header__button-btn btn-angle-2 popup-link" href="#popup">LOGIN</a>
           </div>
-          <button class="menu-btn">
+          <button aria-label="Кнопка" class="menu-btn">
             <span class="menu-btn-line"></span>
           </button>
         </div>
@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="about__images">
-        <img class="about__img" src="/images/drone-angle.png" alt="">
+        <img loading="lazy" class="about__img" src="images/drone-angle.png" alt="">
       </div>
     </div>
   </section>
@@ -125,7 +125,7 @@
           </div>
           <div class="services__items">
             <div class="services__item">
-              <img class="services__item-img" src="/images/services-1.png" alt="">
+              <img loading="lazy" class="services__item-img" src="images/services-1.png" alt="">
               <h3 class="services__item-title">4k resolution</h3>
               <p class="services__item-text">More specifically, microinteractions are the animations and changes of the
                 interface that happen once a user interacts with something, anything. Consider them interactive but
@@ -133,7 +133,7 @@
               </p>
             </div>
             <div class="services__item">
-              <img class="services__item-img" src="/images/services-2.png" alt="">
+              <img loading="lazy" class="services__item-img" src="images/services-2.png" alt="">
               <h3 class="services__item-title">TIMELAPSE</h3>
               <p class="services__item-text">More specifically, microinteractions are the animations and changes of the
                 interface that happen once a user interacts with something, anything. Consider them interactive but
@@ -141,7 +141,7 @@
               </p>
             </div>
             <div class="services__item">
-              <img class="services__item-img" src="/images/services-3.png" alt="">
+              <img loading="lazy" class="services__item-img" src="images/services-3.png" alt="">
               <h3 class="services__item-title">Super speed</h3>
               <p class="services__item-text">More specifically, microinteractions are the animations and changes of the
                 interface that happen once a user interacts with something, anything. Consider them interactive but
@@ -169,7 +169,7 @@
     </div>
     <div class="specification__wrapper">
       <div class="specification__image">
-        <img class="specification__img" src="/images/drone-back.png" alt="Дроня">
+        <img loading="lazy" class="specification__img" src="images/drone-back.png" alt="Дроня">
       </div>
       <div class="container">
         <div class="specification__inner">
@@ -244,7 +244,7 @@
           </div>
         </div>
         <div class="mount__image">
-          <img class="mount__image-img" src="/images/slider-1.png" alt="">
+          <img loading="lazy" class="mount__image-img" src="images/slider-1.png" alt="">
         </div>
       </div>
     </div>
@@ -260,7 +260,7 @@
           </div>
           <div class="rent__carts">
             <div class="rent__cart rent__cart-1">
-              <img class="rent__cart-img rent__cart-img-1" src="/images/rent-1.png" alt="">
+              <img loading="lazy" class="rent__cart-img rent__cart-img-1" src="images/rent-1.png" alt="">
               <p class="rent__cart-name">JXD 512W 90</p>
               <p class="rent__cart-price">$ 299</p>
               <div class="rent__cart-button btn-angle-1">
@@ -268,7 +268,7 @@
               </div>
             </div>
             <div class="rent__cart rent__cart-2">
-              <img class="rent__cart-img rent__cart-img-2" src="/images/rent-2.png" alt="">
+              <img loading="lazy" class="rent__cart-img rent__cart-img-2" src="images/rent-2.png" alt="">
               <p class="rent__cart-name">DJI Plantom 4 Pro+</p>
               <p class="rent__cart-price">$ 399</p>
               <div class="rent__cart-button btn-angle-1">
@@ -276,7 +276,7 @@
               </div>
             </div>
             <div class="rent__cart rent__cart-3">
-              <img class="rent__cart-img rent__cart-img-3" src="/images/rent-3.png" alt="">
+              <img loading="lazy" class="rent__cart-img rent__cart-img-3" src="images/rent-3.png" alt="">
               <p class="rent__cart-name">SkyTech M62 2.4 Ghz</p>
               <p class="rent__cart-price">$ 599</p>
               <div class="rent__cart-button btn-angle-1">
@@ -298,13 +298,13 @@
             <a class="footer__number" href="#!">+1 800 123 456</a>
             <div class="footer__social">
               <a class="footer__social-link" href="#!">
-                <img class="footer__social-twitter footer__social-images" src="/images/twitter.png" alt="">
+                <img class="footer__social-twitter footer__social-images" src="images/twitter.svg" alt="">
               </a>
               <a class="footer__social-link" href="#!">
-                <img class="footer__social-facebook footer__social-images" src="/images/facebook.png" alt="">
+                <img class="footer__social-facebook footer__social-images" src="images/facebook.svg" alt="">
               </a>
               <a class="footer__social-link" href="#!">
-                <img class="footer__social-youtube footer__social-images" src="/images/youtube.png" alt="">
+                <img class="footer__social-youtube footer__social-images" src="images/youtube.svg" alt="">
               </a>
             </div>
           </div>
@@ -343,11 +343,7 @@
     </div>
   </div>
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/libs.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
