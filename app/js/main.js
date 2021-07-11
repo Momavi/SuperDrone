@@ -17,6 +17,7 @@ $('.menu__list-link').on('click', function () {
     $('.menu-btn').removeClass('menu-btn--active');
     $('.menu__list').removeClass('menu__list--active');
 })
+
 // header
 (function () {
     const header = document.querySelector('.header');
