@@ -638,12 +638,14 @@
 
   &__social {
     display: flex;
+
     &-link {
       margin-right: 15px;
       background-color: #fff;
       display: flex;
       border: 5px solid #fff;
       border-radius: 90px;
+
       &:last-child {
         margin-right: 0;
       }
@@ -683,12 +685,14 @@
   overflow-x: hidden;
   transition: all 0.6s ease 0s;
 
-  &:target { // Заменить .open на :target если хочешь без js
+  &:target {
+    // Заменить .open на :target если хочешь без js
     opacity: 1;
     visibility: visible;
   }
 
-  &:target &__content { // Заменить .open на :target если хочешь без js
+  &:target &__content {
+    // Заменить .open на :target если хочешь без js
     transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
     opacity: 1;
   }
